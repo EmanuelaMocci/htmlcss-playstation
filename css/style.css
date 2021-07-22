@@ -1,0 +1,13 @@
+
+
+/* Header */
+header{
+    background-color: black;
+    height: 40px;
+}
+.logo{
+    width: 100px;
+    vertical-align: middle;
+    height: 100%;
+}
+/* /Header */
