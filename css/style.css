@@ -6,6 +6,10 @@ body{
 /* Header top */
 header{
     background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
 }
 .logo{
     width: 100px;
@@ -49,8 +53,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-.descrizione_hero{
+    margin-top: 100px;
     padding: 250px 50px 50px 50px;
 }
 .descrizione_hero>img{
@@ -66,5 +69,18 @@ header{
 .descrizione_hero .btn{
     background-color: #CD3D11;
     padding: 8px 15px;
+    margin-left: 0px;
 }
 /* /Hero */
+
+/* Section Playstation */
+.img_videogioco{
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden; 
+}
+.contenuto_img{
+    margin: 10px 0;
+}
+
+/* /Section Playstation */
