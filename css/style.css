@@ -1,5 +1,7 @@
 
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* Header */
 /* Header top */
 header{
@@ -7,6 +9,7 @@ header{
 }
 .logo{
     width: 100px;
+    padding-top: 15px;
 }
 .header-top{
     height: 30px;
@@ -24,7 +27,7 @@ header{
     background-color: #363636;
     color: white;
     border-radius: 40px;
-    padding: 0 10px;
+    padding: 0 15px;
     margin-left: 10px;
 }
 .navbar{
@@ -37,5 +40,31 @@ header{
     margin-left: 30px;
 }
 /* /Header bottom - nav */
-
 /* /Header */
+
+/* Hero */
+.hero{
+    background-image: url(../img/jumbo-bg.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.descrizione_hero{
+    padding: 250px 50px 50px 50px;
+}
+.descrizione_hero>img{
+    width: 200px;
+    padding-bottom: 30px;
+}
+.descrizione_hero div, h1{
+    color: white;
+}
+.descrizione_hero div{
+    padding: 30px 0;
+}
+.descrizione_hero .btn{
+    background-color: #CD3D11;
+    padding: 8px 15px;
+}
+/* /Hero */
