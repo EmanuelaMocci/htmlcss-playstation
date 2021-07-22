@@ -60,7 +60,7 @@ header{
     width: 200px;
     padding-bottom: 30px;
 }
-.descrizione_hero div, h1{
+.descrizione_hero div, h2{
     color: white;
 }
 .descrizione_hero div{
@@ -73,14 +73,45 @@ header{
 }
 /* /Hero */
 
-/* Section Playstation */
+/* Section Videogiochi */
+.playstation, .playstation5{
+    margin: 0 20px;
+}
 .img_videogioco{
     border-radius: 20px;
     width: 100%;
     overflow: hidden; 
 }
 .contenuto_img{
-    margin: 10px 0;
+    margin: 30px 0;
 }
+/* /Section Videogiochi */
 
-/* /Section Playstation */
+/* Contenitore dettagli playstation 5 */
+.playstation5{
+    padding: 80px 0;
+}
+.blue{
+    color: #4B99DB;
+}
+.grey{
+    color: #727272;
+    padding-top: 20px;
+}
+.playstation5 h2{
+    color: black;
+}
+.btn_blue{
+    background-color: #2D64E6;
+    color: white;
+    margin-left: 0;
+    padding: 8px 15px;
+}
+.playstation5_img{
+    width: 100%;
+}
+.padding_top_playstation5{
+    padding-top: 200px;
+}
+/* /Contenitore dettagli playstation 5 */
+
