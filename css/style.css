@@ -117,11 +117,12 @@ header{
 .padding_top_playstation5{
     padding-top: 200px;
 }
-.contenuto_img_accessori{
-    padding-top: 50px;
-}
 .img_accessori{
-    max-width: 100%;
+    padding-top: 50px;
+    max-width: 140px;
+}
+.contenitore_descrizione{
+    padding-top: 10px;
 }
 /* /Contenitore dettagli playstation 5 */
 
