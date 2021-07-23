@@ -2,6 +2,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+h1, h2{
+    font-size: 50px;
+}
 /* Header */
 /* Header top */
 header{
@@ -46,10 +49,9 @@ header{
 /* /Header bottom - nav */
 /* /Header */
 
-/* Hero */
-.hero{
+/* Hero Top*/
+.hero_top{
     background-image: url(../img/jumbo-bg.png);
-    height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,25 +73,27 @@ header{
     padding: 8px 15px;
     margin-left: 0px;
 }
-/* /Hero */
+/* /Hero Top*/
 
-/* Section Videogiochi */
-.playstation, .playstation5{
-    margin: 0 20px;
-}
+/* Hero-bottom*/
 .img_videogioco{
     border-radius: 20px;
-    width: 100%;
-    overflow: hidden; 
+    max-width: 100%;
+    height: auto;
 }
 .contenuto_img{
-    margin: 30px 0;
+    margin-top: 30px;
 }
-/* /Section Videogiochi */
+.contenuto_img_hover:hover{
+    box-shadow: 0px 0px 0px 2px #0072ce;
+    padding: 3px;
+}
+/* /Hero-bottom*/
 
 /* Contenitore dettagli playstation 5 */
+
 .playstation5{
-    padding: 80px 0;
+    padding: 80px 50px;
 }
 .blue{
     color: #4B99DB;
@@ -108,10 +112,16 @@ header{
     padding: 8px 15px;
 }
 .playstation5_img{
-    width: 100%;
+    max-width: 100%;
 }
 .padding_top_playstation5{
     padding-top: 200px;
+}
+.contenuto_img_accessori{
+    padding-top: 50px;
+}
+.img_accessori{
+    max-width: 100%;
 }
 /* /Contenitore dettagli playstation 5 */
 
