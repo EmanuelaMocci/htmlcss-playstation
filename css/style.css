@@ -69,8 +69,9 @@ header{
     width: 200px;
     padding-bottom: 30px;
 }
-.descrizione_hero div, h2, .descrizione_takes_two div{
+.descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom{
     color: white;
+    
 }
 .descrizione_hero .btn, .descrizione_takes_two .btn{
     background-color: #CD3D11;
@@ -156,6 +157,18 @@ header{
 .descrizione_takes_two{
     margin: 50px 0px 50px 0px;
 }
-
+.it_takes_two_bottom{
+    background-color: #202020;
+}
+.descrizione_it_takes_two_bottom h3{
+    margin: 30px 0;
+}
+.descrizione_it_takes_two_bottom p{
+    font-size: 20px;
+}
+.it_takes_two_bottom .contenuto_img div{
+    color: #D3D3D3;
+    padding-top: 10px;
+}
 /* /Contenitore section takes two */
 
