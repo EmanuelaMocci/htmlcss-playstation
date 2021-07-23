@@ -69,10 +69,10 @@ header{
     width: 200px;
     padding-bottom: 30px;
 }
-.descrizione_hero div, h2{
+.descrizione_hero div, h2, .descrizione_takes_two div{
     color: white;
 }
-.descrizione_hero .btn{
+.descrizione_hero .btn, .descrizione_takes_two .btn{
     background-color: #CD3D11;
     padding: 8px 15px;
     margin: 50px 0 0 0;
@@ -82,8 +82,6 @@ header{
 /* Hero-bottom*/
 .img_videogioco{
     border-radius: 20px;
-    max-width: 100%;
-    height: auto;
 }
 .contenuto_img{
     margin-top: 30px;
@@ -97,7 +95,10 @@ header{
 /* Contenitore dettagli playstation 5 */
 
 .playstation5{
-    margin: 80px 0px 80px 50px;
+    margin: 80px 0px 80px 0px;
+}
+.padding_bottom{
+    padding-bottom: 50px;
 }
 .blue{
     color: #4B99DB;
@@ -115,14 +116,11 @@ header{
     margin-left: 0;
     padding: 8px 15px;
 }
-
+.play_padding{
+    padding-top: 150px;
+}
 .playstation5_img img{
     max-width: 100%;
-}
-
-.padding_top_playstation5{
-    padding-top: 200px;
-    padding-right: 30px;
 }
 .img_accessori{
     padding-top: 50px;
@@ -142,6 +140,22 @@ header{
     opacity: 1;
     border-bottom: 2px solid #2D64E6;
 }
-
 /* /Contenitore dettagli playstation 5 */
+
+/* Contenitore section takes two */
+.takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.descrizione_takes_two>img{
+    width: 250px;
+    padding-bottom: 50px;
+}
+.descrizione_takes_two{
+    margin: 50px 0px 50px 0px;
+}
+
+/* /Contenitore section takes two */
 
