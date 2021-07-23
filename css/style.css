@@ -93,7 +93,7 @@ header{
 /* Contenitore dettagli playstation 5 */
 
 .playstation5{
-    padding: 80px 50px;
+    margin: 80px 0px 80px 50px;
 }
 .blue{
     color: #4B99DB;
@@ -111,11 +111,14 @@ header{
     margin-left: 0;
     padding: 8px 15px;
 }
-.playstation5_img{
+
+.playstation5_img img{
     max-width: 100%;
 }
+
 .padding_top_playstation5{
     padding-top: 200px;
+    padding-right: 30px;
 }
 .img_accessori{
     padding-top: 50px;
@@ -124,5 +127,17 @@ header{
 .contenitore_descrizione{
     padding-top: 10px;
 }
+.img_hover_accessori a{
+    text-decoration: none;
+    color: black;
+}
+.img_hover_accessori{
+    opacity: 0.5;
+}
+.img_hover_accessori:hover{
+    opacity: 1;
+    border-bottom: 2px solid #2D64E6;
+}
+
 /* /Contenitore dettagli playstation 5 */
 
