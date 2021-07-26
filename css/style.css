@@ -185,7 +185,8 @@ header{
     background-color: #BFBCBB;
 }
 .logo_plus{
-    width: 350px;
+    max-width: 350px;
+    padding-top: 30px;
 
 }
 .banner_plus{
