@@ -79,7 +79,7 @@ header{
     max-width: 200px;
     padding-bottom: 30px;
 }
-.descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom, .now_testo{
+.descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom, .now_testo, footer, .footer_stile ul li a{
     color: white;
     
 }
@@ -196,11 +196,9 @@ header{
     padding: 8px 15px;
     margin: 40px 0 40px 0;
 } 
-.img_background{
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+.img_background img{
+  height: 100%;
+  width: 100%;
 }
 /* /Sezione plus */
 
@@ -214,15 +212,34 @@ header{
     padding: 8px 15px;
     margin: 40px 0 40px 0;
 }
-.img_background_now{
-    background-image: url(../img/ps-now-april-featured-image-block.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 /* /Sezione Playstation now */
 
 /* Sezione social media */
-
+.contenitore_social{
+    width: 50%;
+    margin: auto;
+}
 /* /Sezione social media */
 
+/* Footer */
+footer{
+    background-color: #00439B;
+}
+.footer_margin{
+    padding: 80px 0;
+}
+/* Footer-top */
+.logo_footer{
+    width: 100px;
+}
+.globe{
+    width: 20px;
+}
+.footer_stile ul li a{
+    text-decoration: none;
+}
+.footer_stile ul li{
+    list-style: none;
+}
+/* /Footer-top */
+/* /Footer */
