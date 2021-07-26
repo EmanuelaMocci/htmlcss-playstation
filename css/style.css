@@ -79,7 +79,7 @@ header{
     max-width: 200px;
     padding-bottom: 30px;
 }
-.descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom{
+.descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom, .now_testo{
     color: white;
     
 }
@@ -204,3 +204,14 @@ header{
     margin: 40px 0 40px 0;
 } 
 /* /Sezione plus */
+
+/* Sezione Playstation now */
+.now{
+    background-color: #161D3B;
+}
+.btn_now{
+    background-color: #F5F5F5;
+    color: black;
+    padding: 8px 15px;
+    margin: 40px 0 40px 0;
+}
