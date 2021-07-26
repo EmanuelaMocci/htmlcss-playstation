@@ -9,6 +9,12 @@ h1, h2{
     max-width: 1000px;
     margin: auto;
 }
+.font_size{
+    font-size: 20px;
+}
+.margin_top{
+    margin-top: 30px;
+}
 /* Header */
 /* Header top */
 main{
@@ -31,6 +37,9 @@ header{
 /* /Header top */
 
 /* Header bottom - nav */
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
 .angle{
     width: 8px;
 }
@@ -126,7 +135,7 @@ header{
 }
 .img_accessori{
     padding-top: 50px;
-    max-width: 140px;
+    width: 140px;
 }
 .contenitore_descrizione{
     padding-top: 10px;
@@ -165,7 +174,7 @@ header{
     margin: 30px 0;
 }
 .descrizione_it_takes_two_bottom p{
-    font-size: 20px;
+    font-size: 23px;
 }
 .it_takes_two_bottom .contenuto_img div{
     color: #D3D3D3;
@@ -186,13 +195,8 @@ header{
 }
 .logo_plus{
     max-width: 350px;
-    padding-top: 30px;
-
+    padding: 30px 0;
 }
-.banner_plus{
-
-}
-
 .btn_grey{
     background-color: #D9DADC;
     color: #4070E5;
