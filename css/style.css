@@ -241,5 +241,19 @@ footer{
 .footer_stile ul li{
     list-style: none;
 }
+
 /* /Footer-top */
+
+/* Footer bottom */
+.margin_top_footer{
+    margin-top: 15px;
+}
+.margin_top_footer_bottom{
+    margin-top: 20px;
+}
+.margin_bottom_footer{
+    margin-bottom: 40px;
+}
+/* /Footer bottom */
+
 /* /Footer */
