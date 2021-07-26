@@ -155,7 +155,7 @@ header{
 /* Sezione It takes two */
 .takes_two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -182,10 +182,6 @@ header{
 }
 /* /Sezione It takes two */
 
-/* Sezione esplora */
-
-/* /Sezione esplora */
-
 /* Sezione plus */
 .plus{
     background-color: #BFBCBB;
@@ -202,7 +198,8 @@ header{
 } 
 .img_background{
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-size: 100% 100%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 /* /Sezione plus */
@@ -226,13 +223,6 @@ header{
 /* /Sezione Playstation now */
 
 /* Sezione social media */
-.img_social{
-    width: 100%;
-    margin-top: 30px;
-}
-.width_social{
-    max-width: 60%;
-    margin: auto;
-}
+
 /* /Sezione social media */
 
