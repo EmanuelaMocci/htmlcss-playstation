@@ -19,9 +19,10 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 99;
 }
 .logo{
-    width: 100px;
+    max-width: 100px;
     padding-top: 15px;
 }
 .header-top{
@@ -66,7 +67,7 @@ header{
     margin: 200px 0px 50px 0px;
 }
 .descrizione_hero>img{
-    width: 200px;
+    max-width: 200px;
     padding-bottom: 30px;
 }
 .descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom{
@@ -121,7 +122,7 @@ header{
     padding-top: 150px;
 }
 .playstation5_img img{
-    max-width: 100%;
+    width: 100%;
 }
 .img_accessori{
     padding-top: 50px;
@@ -151,7 +152,7 @@ header{
     background-repeat: no-repeat;
 }
 .descrizione_takes_two>img{
-    width: 250px;
+    max-width: 250px;
     padding-bottom: 50px;
 }
 .descrizione_takes_two{
@@ -168,7 +169,33 @@ header{
 }
 .it_takes_two_bottom .contenuto_img div{
     color: #D3D3D3;
+    font-size: 13px;
     padding-top: 10px;
 }
 /* /Contenitore section takes two */
 
+/* Sezione esplora */
+.img_esplora{
+   width: 100%;
+}
+/* /Sezione esplora */
+
+/* Sezione plus */
+.plus{
+    background-color: #BFBCBB;
+}
+.logo_plus{
+    width: 350px;
+
+}
+.banner_plus{
+
+}
+
+.btn_grey{
+    background-color: #D9DADC;
+    color: #4070E5;
+    padding: 8px 15px;
+    margin: 40px 0 40px 0;
+} 
+/* /Sezione plus */
