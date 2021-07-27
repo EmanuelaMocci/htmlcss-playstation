@@ -40,9 +40,9 @@ header{
 .navbar-light .navbar-nav .nav-link{
     color: black;
 }
-.angle{
+/* .angle{
     width: 8px;
-}
+} */
 .search{
     width: 30px;
 }
@@ -53,6 +53,10 @@ header{
     padding: 0 15px;
     margin-left: 10px;
 }
+.btn:hover{
+    color: white;
+    box-shadow: white 0px 0px 0px 2px, #363636 0px 0px 0px 4px;
+}
 .navbar{
     margin-top: 17px;
 }
@@ -62,19 +66,37 @@ header{
 .search{
     margin-left: 30px;
 }
-/* .dropdown .border_bottom{
-    border-bottom: 1px solid red;
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0070D1;
 }
-.sub_link a{
-    color: red;
+
+.freccia {
+    width: 10px;
+    display: inline-block;
 }
-.display_menu ul{
+.freccia img {
     width: 100%;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-} */
-/* TEST */
+}
+
+.angle {
+    display: block;
+}
+
+.down {
+    display: none;
+}
+
+.nav-link:hover .angle{
+    display: none;
+}
+.nav-link:hover .down{
+    display: block;
+}
+.nav-link:active .down{
+    transform: rotate(180deg);
+}
+/* Dropdown menu */
 .dropdown{
     position: static;
 }
@@ -94,10 +116,7 @@ ul .stile a:before {
     content: "• ";
     color: #0070D1;
 }
-
-
-
-/* /TEST */
+/* /Dropdown menu */
 /* /Header bottom - nav */
 /* /Header */
 
@@ -124,19 +143,31 @@ ul .stile a:before {
     padding: 8px 15px;
     margin: 50px 0 0 0;
 }
+.descrizione_hero .btn:hover, .descrizione_takes_two .btn:hover{
+    box-shadow: #000202 0px 0px 0px 2px, #CD3D11 0px 0px 0px 4px;
+}
 /* /Hero Top*/
 
 /* Hero-bottom*/
 .img_videogioco{
     border-radius: 20px;
 }
-.contenuto_img{
+/* .contenuto_img{
     margin-top: 30px;
+    position: relative;
+} */
+.contenuto_img_border{
+    box-shadow: white 0px 0px 0px 2px, #0072ce 0px 0px 0px 4px;
+    border-radius: 20px;
 }
-.contenuto_img_hover:hover{
-    box-shadow: 0px 0px 0px 2px #0072ce;
-    padding: 3px;
+/* .contenuto_img_border:hover{
+    position: relative;
+    top: -10px;
 }
+.contenuto_img .img_videogioco:hover{
+    position: absolute;
+    top: -10px;
+} */
 /* /Hero-bottom*/
 
 /* Sezione playstation 5 */
@@ -162,6 +193,9 @@ ul .stile a:before {
     color: white;
     margin-left: 0;
     padding: 8px 15px;
+}
+.btn_blue:hover{
+    box-shadow: white 0px 0px 0px 2px, #2D64E6 0px 0px 0px 4px;
 }
 .play_padding{
     padding-top: 100px;
@@ -232,6 +266,10 @@ ul .stile a:before {
     padding: 8px 15px;
     margin: 40px 0 40px 0;
 } 
+.btn_grey:hover{
+    box-shadow: white 0px 0px 0px 2px, #D9DADC 0px 0px 0px 4px;
+    color: #4070E5;
+}
 .img_background img{
   height: 100%;
   width: 100%;
@@ -247,6 +285,10 @@ ul .stile a:before {
     color: black;
     padding: 8px 15px;
     margin: 40px 0 40px 0;
+}
+.btn_now:hover{
+    box-shadow: #161E3B 0px 0px 0px 2px, #F5F5F5 0px 0px 0px 4px;
+    color: black;
 }
 /* /Sezione Playstation now */
 
