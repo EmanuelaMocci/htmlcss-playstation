@@ -258,6 +258,15 @@ ul .stile a:before {
 }
 /* /Sezione It takes two */
 
+/* Esplora */
+.contenitore_simbolo{
+    position: relative;
+}
+.simbolo{
+    font-size: 15px;
+    position: absolute;
+}
+/* /Esplora */
 /* Sezione plus */
 .plus{
     background-color: #BFBCBB;
