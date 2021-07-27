@@ -62,6 +62,42 @@ header{
 .search{
     margin-left: 30px;
 }
+/* .dropdown .border_bottom{
+    border-bottom: 1px solid red;
+}
+.sub_link a{
+    color: red;
+}
+.display_menu ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} */
+/* TEST */
+.dropdown{
+    position: static;
+}
+.dropdown-menu{
+    width: 100%;
+}
+.dropdown-menu li{
+    display: inline-block;
+}
+.border_top{
+    border-top: 1px solid #C7C8C9;
+}
+.border_top ul{
+    margin-left: -30px;
+}
+ul .stile a:before {
+    content: "• ";
+    color: #0070D1;
+}
+
+
+
+/* /TEST */
 /* /Header bottom - nav */
 /* /Header */
 
