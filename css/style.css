@@ -40,9 +40,6 @@ header{
 .navbar-light .navbar-nav .nav-link{
     color: black;
 }
-/* .angle{
-    width: 8px;
-} */
 .search{
     width: 30px;
 }
@@ -116,6 +113,10 @@ ul .stile a:before {
     content: "• ";
     color: #0070D1;
 }
+.ps6{
+    color: black;
+    text-decoration: none;
+}
 /* /Dropdown menu */
 /* /Header bottom - nav */
 /* /Header */
@@ -149,25 +150,26 @@ ul .stile a:before {
 /* /Hero Top*/
 
 /* Hero-bottom*/
-.img_videogioco{
+.img_videogioco, .img_videogioco_nuove_uscite{
     border-radius: 20px;
 }
-/* .contenuto_img{
+.contenuto_img{
     margin-top: 30px;
     position: relative;
+}
+/* .contenuto_img_border{
+    box-shadow: white 0px 0px 0px 2px, #0072ce 0px 0px 0px 4px;
+    border-radius: 20px;
 } */
-.contenuto_img_border{
+.border_blue_hero{
     box-shadow: white 0px 0px 0px 2px, #0072ce 0px 0px 0px 4px;
     border-radius: 20px;
 }
-/* .contenuto_img_border:hover{
-    position: relative;
-    top: -10px;
-}
-.contenuto_img .img_videogioco:hover{
+
+.img_videogioco:hover{
     position: absolute;
     top: -10px;
-} */
+} 
 /* /Hero-bottom*/
 
 /* Sezione playstation 5 */
@@ -210,15 +212,19 @@ ul .stile a:before {
 .contenitore_descrizione{
     padding-top: 10px;
 }
-.img_hover_accessori a{
+.contenitore_img_playstaion5 a{
     text-decoration: none;
+    color: black;
+}
+.border_blue{
+    border-bottom: 2px solid #2D64E6;
 }
 .img_hover_accessori{
     opacity: 0.5;
 }
 .img_hover_accessori:hover{
     opacity: 1;
-    border-bottom: 2px solid #2D64E6;
+    transition: opacity 2s;
 }
 /* /Sezione playstation 5 */
 
