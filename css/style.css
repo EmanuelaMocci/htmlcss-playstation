@@ -135,7 +135,7 @@ ul .stile a:before {
     max-width: 200px;
     padding-bottom: 30px;
 }
-.descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom, .now_testo, footer, .footer_stile ul li a{
+.descrizione_hero div, h2, .descrizione_takes_two div, .descrizione_it_takes_two_bottom, .now_testo, footer, footer a{
     color: white;
     
 }
@@ -338,6 +338,7 @@ footer{
 .margin_bottom_footer{
     margin-bottom: 40px;
 }
+
 /* /Footer bottom */
 
 /* /Footer */
